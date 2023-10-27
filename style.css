@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Varela Round', sans-serif;
+    transition: 1s ease-in-out;
 }
 
 body {
@@ -94,6 +95,20 @@ b {
     margin: 1% 0%;
     padding: 0% 5%;
     border-right: 1px solid black;
+}
+.container:hover, 
+.container:hover h2,
+.container:hover h3,
+.container:hover img,
+.container:hover .buttons,
+/* .container:hover a img, */
+.container:hover .logo, 
+.container:hover section {
+  transform: scaleX(-1);
+}
+
+.container:hover .logo a img{
+  transform: scaleX(1);
 }
 
 i {
